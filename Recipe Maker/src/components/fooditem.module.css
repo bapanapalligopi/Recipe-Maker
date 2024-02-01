@@ -1,0 +1,37 @@
+.itemcontainer{
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px px rgba(0, 0, 0, 1.0);
+    margin: 20px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.itemimage{
+    width: 100%;
+    height: auto;
+}
+.itemcontent{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.itemname{
+    font-size: 1em;
+    font-weight: 600;
+    color: black;
+}
+.itembut{
+    color: white;
+    text-align: center;
+    background-color: rgba(37, 215, 84, 0.735);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 9px;
+    padding: 10px;
+    border: 1px solid;
+}
+.butcontainer{
+    margin-bottom: 20px;display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
